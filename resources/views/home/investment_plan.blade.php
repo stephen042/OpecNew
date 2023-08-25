@@ -60,7 +60,7 @@
   invest $ 60,000.00 and earn $ 510,000.00 <br>
   invest $ 65,000.00 and earn $ 570,000.00 <br>
   invest $ 70,000.00and earn $ 620,000.00 <br><br>
-   <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+   <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
             </a>
   </p>
         </div>
@@ -78,7 +78,7 @@
   with in 30-40 Mintues hours. <br> <br>
   
   <br><br>
-   <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+   <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
             </a>
   
   
@@ -96,7 +96,7 @@
   400,000.00   And earn 16,000,000.00 <br> <br>
   ✔️✔️
   <br><br>
-   <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started  </a> <br>
+   <a href="register" class="text-uppercase border_radius btn-yellow">Get Started  </a> <br>
    
   </p>
         </div>
@@ -112,7 +112,7 @@
   <br><br>
   500,000.00   And earn 18,000,000.00 <br>
   600,000.00   And earn 21,000,000.00 <br><br>
-   <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+   <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
             </a></p>
         </div>
         
@@ -126,7 +126,7 @@
   800,000.00   And earn 34,000,000.00 <br>
   900,000.00   And earn 48,000,000.00 <br>
   999,000.00   And earn 52,000,000.00 <br><br>
-   <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+   <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
             </a></p>
         </div>
         <div class="col-sm-4 icon_box text-center wow fadeIn" data-wow-delay="1000ms">
@@ -137,7 +137,7 @@
   <br><br>
   1,000,000.00   And earn 61,000,000.00 <br>
   2,000,000.00   And earn 112,000,000.00 <br><br>
-   <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+   <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
             </a></p>
         </div>
         

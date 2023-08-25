@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from Opectrade.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Feb 2023 21:01:19 GMT -->
+<!-- Mirrored from Opectrade.com/about by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Feb 2023 21:01:19 GMT -->
 
 @include('include.home_css')
 
@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <ul class="breadcrumb">
-                        <li><a href="index.html"><i class="icon-home6"></i>Home</a></li>
+                        <li><a href="/"><i class="icon-home6"></i>Home</a></li>
                         <li class="active">About Us</li>
                     </ul>
                 </div>
@@ -201,7 +201,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="do_media media bottom40">
-                        <div class="media-left"> <a href="about.html#"> <img class="media-object"
+                        <div class="media-left"> <a href="about#"> <img class="media-object"
                                     src="{{ asset('assets/ui/images/about1.jpg') }}" alt="What We Do"> </a> </div>
                         <div class="media-body">
                             <h4 class="bottom10">Always Available</h4>
@@ -263,6 +263,6 @@
 
 </body>
 
-<!-- Mirrored from Opectrade.com/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Feb 2023 21:01:23 GMT -->
+<!-- Mirrored from Opectrade.com/about by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Feb 2023 21:01:23 GMT -->
 
 </html>

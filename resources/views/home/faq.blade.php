@@ -55,7 +55,7 @@
 	  <div class="row">
 		<div class="col-sm-12 text-center">
 		 <ul class="breadcrumb">
-		  <li><a href="index.html"><i class="icon-home6"></i>Home</a></li>
+		  <li><a href="/"><i class="icon-home6"></i>Home</a></li>
 		  <li class="active">faq’s</li>
 		 </ul>
 		</div>

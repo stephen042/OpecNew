@@ -12,11 +12,11 @@
             <li><a href="about"><i class="icon-chevron-small-right"></i>Company</a></li>
             <li><a href="faq"><i class="icon-chevron-small-right"></i>FAQ</a></li>     
             <li><a href="contact-us"><i class="icon-chevron-small-right"></i>Contact Us</a></li>
-            <li><a href="terms-conditions"><i class="icon-chevron-small-right"></i>Terms & Conditions</a></li>
-            <li><a href="aml-policy"><i class="icon-chevron-small-right"></i>AML Policy</a></li>
+            <li><a href="terms"><i class="icon-chevron-small-right"></i>Terms & Conditions</a></li>
+            <li><a href="ai"><i class="icon-chevron-small-right"></i>AML Policy</a></li>
             <li><a href="privacy-policy"><i class="icon-chevron-small-right"></i>Privacy Policy</a></li>
             <li><a href="payment-policy"><i class="icon-chevron-small-right"></i>Payment Policy</a></li>
-            <li><a href="account/index"><i class="icon-chevron-small-right"></i>Start Investing</a></li>
+            <li><a href="register"><i class="icon-chevron-small-right"></i>Start Investing</a></li>
             <li><a href="security"><i class="icon-chevron-small-right"></i>Security</a></li>
             {{-- <li><a href="#"><i class="icon-chevron-small-right"></i>How To Fund</a></li> --}}
         </ul>

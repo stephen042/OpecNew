@@ -19,9 +19,9 @@ use App\Http\Controllers\AccountController;
 
 Route::get('/', [UserController::class, "index"])->name("app.home"); //used
 Route::get('/about', [UserController::class, "about"])->name("about"); 
-Route::get('/blockchain', [UserController::class, "blockchain"])->name("blockchain");//used
-Route::get('/hpc', [UserController::class, "hpc"])->name("hpc");//used
-Route::get('/cryptoinfrastructure', [UserController::class, "cryptoinfrastructure"])->name("cryptoinfrastructure");//used
+Route::get('/privacy-policy', [UserController::class, "privacy_policy"])->name("privacy-policy");//used
+Route::get('/security', [UserController::class, "security"])->name("security");//used
+Route::get('/payment-policy', [UserController::class, "payment_policy"])->name("payment-policy");//used
 Route::get('/ai', [UserController::class, "ai"])->name("ai");//used
 Route::get('/realEstate', [UserController::class, "realEstate"])->name("realEstate");
 Route::get('/forex', [UserController::class, "forex"])->name("forex");

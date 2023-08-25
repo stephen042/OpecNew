@@ -72,9 +72,9 @@
                         data-voffset="['0','0','0','0']" data-responsive_offset="on" data-transform_idle="o:1;"
                         data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1600">
-                        <a href="account/index.html" class="btn-border text-uppercase border_radius">Login
+                        <a href="login" class="btn-border text-uppercase border_radius">Login
                         </a>
-                        <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get started
+                        <a href="register" class="text-uppercase border_radius btn-yellow">Get started
                         </a>
                     </div>
                 </li>
@@ -103,9 +103,9 @@
                         data-voffset="['0','0','0','0']" data-responsive_offset="on" data-transform_idle="o:1;"
                         data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1600">
-                        <a href="account/index.html" class="btn-border text-uppercase border_radius">Login
+                        <a href="login" class="btn-border text-uppercase border_radius">Login
                         </a>
-                        <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Register
+                        <a href="register" class="text-uppercase border_radius btn-yellow">Register
                         </a>
                     </div>
                 </li>
@@ -200,28 +200,28 @@
                             <h2 class="bottom10 text-black">SAFE AND SECURE</h2>
                             <p class="bottom20">Trade with 100% peace of mind as we have the best system security team
                                 onboard.</p>
-                            <a href="about.html" class="btn-border text-uppercase border_radius">Read More</a>
+                            <a href="about" class="btn-border text-uppercase border_radius">Read More</a>
                         </div>
                         <div class="item">
                             <span class="count bottom20 blue_bg">2</span>
                             <h2 class="bottom10 text-black">INSTANT TRADING</h2>
                             <p class="bottom20">With our lightning speed servers, you are sure to get the best out of
                                 your investments.</p>
-                            <a href="about.html" class="btn-border text-uppercase border_radius">Read More</a>
+                            <a href="about" class="btn-border text-uppercase border_radius">Read More</a>
                         </div>
                         <div class="item">
                             <span class="count bottom20 blue_bg">3</span>
                             <h2 class="bottom10 text-black">PROGRESSIVE REVENUE</h2>
                             <p class="bottom20">Watch your accruals grow in real time and monitor how much revenue is
                                 being generated from your investment.</p>
-                            <a href="about.html" class="btn-border text-uppercase border_radius">Read More</a>
+                            <a href="about" class="btn-border text-uppercase border_radius">Read More</a>
                         </div>
                         <div class="item">
                             <span class="count bottom20 blue_bg">4</span>
                             <h2 class="bottom10 text-black">COVERED BY INSURANCE</h2>
                             <p class="bottom20">You have zero chances of losing your investments as all our assets are
                                 duly covered by inssurance.</p>
-                            <a href="about.html" class="btn-border text-uppercase border_radius">Read More</a>
+                            <a href="about" class="btn-border text-uppercase border_radius">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -347,7 +347,7 @@
                         with securities and shares of various UK organizations. They have all the information and
                         abilities that are important to be required in beneficial trade and expand the benefit with
                         sensible risk</p>
-                    <a href="about.html" class="btn-white text-uppercase border_radius">More About us</a>
+                    <a href="about" class="btn-white text-uppercase border_radius">More About us</a>
                 </div>
             </div>
         </div>
@@ -376,7 +376,7 @@
                         invest $5,000.00 and earn $25,000.00 <br>
                         invest $6,000.00 and earn $30,000.00 <br>
                         <br><br>
-                        <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+                        <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a>
                     </p>
                 </div>
@@ -393,7 +393,7 @@
                         within 5 business days. <br> <br>
 
                         <br><br>
-                        <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+                        <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a>
 
 
@@ -412,7 +412,7 @@
                         <br>
                         ✔️✔️
                         <br><br>
-                        <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+                        <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a> <br>
 
                     </p>
@@ -429,7 +429,7 @@
                         <br><br>
                         $150,000.00 And earn $350,000.00 <br>
 
-                        <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+                        <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a>
                     </p>
                 </div>
@@ -443,7 +443,7 @@
                         $250,000.00 And earn $550,000.00 <br>
                         <br>
                         <br>
-                        <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+                        <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a>
                     </p>
                 </div>
@@ -454,7 +454,7 @@
                         Profit will receive within 30 minutes.
                         <br><br>
                         $300,000.00 And earn $1,000,000.00 <br>
-                        <a href="account/register.html" class="text-uppercase border_radius btn-yellow">Get Started
+                        <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a>
                     </p>
                 </div>
@@ -772,6 +772,6 @@
     
 </body>
 
-<!-- Mirrored from Opectrade.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Feb 2023 21:00:06 GMT -->
+<!-- Mirrored from Opectrade.com/index by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Feb 2023 21:00:06 GMT -->
 
 </html>

@@ -198,14 +198,14 @@ class UserController extends Controller
         return view("home.index");
     }
 
-    public function blockchain(Request $request)
+    public function privacy_policy(Request $request)
     {
-        return view("home.blockchain");
+        return view("home.privacy-policy");
     }
 
-    public function hpc(Request $request)
+    public function security(Request $request)
     {
-        return view("home.hpc");
+        return view("home.security");
     }
 
     public function about(Request $request)
@@ -213,9 +213,9 @@ class UserController extends Controller
         return view("home.about");
     }
 
-    public function cryptoinfrastructure(Request $request)
+    public function payment_policy(Request $request)
     {
-        return view("home.cryptoinfrastructure");
+        return view("home.payment-policy");
     }
 
     public function ai(Request $request)
