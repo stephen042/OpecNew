@@ -86,8 +86,8 @@
                                                                     <td>
                                                                         {{-- <a href="{{ route("admin.deposit.view",["edit",$deposit->id]) }}"><em class="icon ni ni-edit"></em></a> --}}
                                                                         {{-- <a class="delete_data" href="{{ route("admin.deposit.view",["delete",$deposit->id]) }}" data-type="deposit" ><em  class="icon ni ni-trash-fill "></em></a> --}}
-                                                                        <a href="{{ URL('storage/'.$data->frontPage) }}" target="_blank"><em class="icon ni ni-eye-fill"></em></a>
-                                                                        <a href="{{ URL('storage/'.$data->backPage) }}" target="_blank"><em class="icon ni ni-eye-fill"></em></a>
+                                                                        <a href="{{ URL('storage/app/public/'.$data->frontPage) }}" target="_blank"><em class="icon ni ni-eye-fill"></em></a>
+                                                                        <a href="{{ URL('storage/app/public/'.$data->backPage) }}" target="_blank"><em class="icon ni ni-eye-fill"></em></a>
                                                                     </td>
                                                                     <td class="tb-tnx-action">
                                                                       <div class="dropdown">

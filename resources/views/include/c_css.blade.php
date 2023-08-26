@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <link rel="shortcut icon" type="image/png"
-    href="{{ asset('assets/images/favicon.png') }}" />
+    href="{{ asset('assets/img/favicon.png') }}" />
 <link rel="stylesheet" href="{{ asset('assets/asset/css/dashboard/dashlite.css') }}">
 <link id="skin-default" rel="stylesheet" href="{{ asset('assets/asset/css/dashboard/theme.css') }}">
 {{-- <link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}"/> --}}

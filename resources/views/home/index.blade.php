@@ -356,7 +356,7 @@
 
 
 
-
+ <!--Plan-->
     <section id="info" class="padding">
         <div class="container">
             <div class="row">
@@ -369,49 +369,54 @@
             <div class="row info">
                 <div class="col-sm-4 icon_box text-center first wow fadeIn" data-wow-delay="500ms">
                     <i class="icon-lock bottom20"></i>
-                    <h4 class="bottom10">SILVER PLAN</h4>
+                    <h4 class="bottom10">BASIC PLAN</h4>
                     <p>
-                        invest $3,000,00 and earn $15,000.00 <br>
-                        invest $4,000.00 and earn $20,000.00 <br>
-                        invest $5,000.00 and earn $25,000.00 <br>
-                        invest $6,000.00 and earn $30,000.00 <br>
-                        <br><br>
+                        Type - TOTALRETURN SWAP <br>
+                        MIN - $100 <br>
+                        ROI - 15.0 <br>
+                        MAX - $499 <br>
+                        DURATION - 1 Day <br>
+                        COMMISSION - 10% <br>
+                        ✔️✔️
+                        Profit will Recieved
+                        immediately After WithdWithdrawal.
+                        <br>
                         <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a>
                     </p>
                 </div>
                 <div class="col-sm-4 icon_box text-center wow fadeIn" data-wow-delay="600ms">
                     <i class="fa fa-bolt bottom20"></i>
-                    <h4 class="bottom10">VIP PLAN</h4>
-                    <p>VIP plans and possible earnings in two months available
-
-                        invest $10,000.00 and earn $45,000.00 <br>
-                        invest $20,000,00 and earn $65,000.00 <br>
-                        invest $30,000.00 and earn $75,000.00 <br>
+                    <h4 class="bottom10">STANDARD PLAN</h4>
+                    <p>
+                        Type - TOTALRETURN SWAP <br>
+                        MIN - $500 <br>
+                        ROI - 25.0 <br>
+                        MAX - $4,999 <br>
+                        DURATION - 2 Day <br>
+                        COMMISSION - 10% <br>
                         ✔️✔️
-                        Profit will Recieve
-                        within 5 business days. <br> <br>
-
-                        <br><br>
+                        Profit will Recieved
+                        immediately After WithdWithdrawal.
+                        <br>
                         <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a>
-
-
-
                     </p>
                 </div>
                 <div class="col-sm-4 icon_box text-center wow fadeIn" data-wow-delay="700ms">
                     <i class="icon-layers bottom20"></i>
-                    <h4 class="bottom10">VVIP PLAN</h4>
-                    <p>Special investment plans in six months only available for investors over 5 years with us are
-                        eligible to invest in this plans.
-
-                        $70,000.00 and earn $180,000.00 <br>
-                        $100,000.00 and earn $250,000.00 <br>
-                        <br>
-                        <br>
+                    <h4 class="bottom10">PREMIUM PLAN</h4>
+                    <p>
+                        Type - TOTALRETURN SWAP <br>
+                        MIN - $5000 <br>
+                        ROI - 50.0 <br>
+                        MAX - $100,000 <br>
+                        DURATION - 4 Day <br>
+                        COMMISSION - 10% <br>
                         ✔️✔️
-                        <br><br>
+                        Profit will Recieved
+                        immediately After WithdWithdrawal.
+                        <br>
                         <a href="register" class="text-uppercase border_radius btn-yellow">Get Started
                         </a> <br>
 
@@ -463,11 +468,9 @@
             </div>
         </div>
     </section>
+ <!--Plan End-->
 
-
-
-
-
+    <!--Info-->
     <section id="info" class="padding">
         <div class="container">
             <div class="row">
@@ -514,6 +517,7 @@
             </div>
         </div>
     </section>
+  <!--Info End-->
 
     <!--People Saying-->
     <section id="people" class="padding">
@@ -536,7 +540,7 @@
                     </div>
                     <div class="testinomial_pic text-right pull-right">
                         <div class="pic"><img alt="testinomial"
-                                src="uploads/testimonies/thumb/998bbc715738adbee6391aa77185ed78.jpg"
+                                src="{{ asset('assets/uploads/testimonies/thumb/998bbc715738adbee6391aa77185ed78.jpg') }}"
                                 style="width: 58px;"></div>
                         <div class="testinomial_body">
                             <span class="name text-white">- Allen Brewer</span>
@@ -553,7 +557,7 @@
                     </div>
                     <div class="testinomial_pic text-right pull-right">
                         <div class="pic"><img alt="testinomial"
-                                src="uploads/testimonies/thumb/47cbbfcf351a84a2c74ba853146d9713.jpg"
+                                src="{{ asset('assets/uploads/testimonies/thumb/47cbbfcf351a84a2c74ba853146d9713.jpg') }}"
                                 style="width: 58px;"></div>
                         <div class="testinomial_body">
                             <span class="name text-white">- Carly Jones</span>
@@ -570,7 +574,7 @@
                     </div>
                     <div class="testinomial_pic text-right pull-right">
                         <div class="pic"><img alt="testinomial"
-                                src="uploads/testimonies/thumb/20aab71f88a53b30534b49407b1e61b4.jpg"
+                                src="{{ asset('assets/uploads/testimonies/thumb/20aab71f88a53b30534b49407b1e61b4.jpg') }}"
                                 style="width: 58px;"></div>
                         <div class="testinomial_body">
                             <span class="name text-white">- Carilyn E</span>
@@ -587,7 +591,7 @@
                     </div>
                     <div class="testinomial_pic text-right pull-right">
                         <div class="pic"><img alt="testinomial"
-                                src="uploads/testimonies/thumb/689098d009df1575c9e35c237e701927.jpg"
+                                src="{{ asset('uploads/testimonies/thumb/689098d009df1575c9e35c237e701927.jpg') }}"
                                 style="width: 58px;"></div>
                         <div class="testinomial_body">
                             <span class="name text-white">- Jabal husseini </span>
@@ -615,7 +619,7 @@
                 <div id="news_slider" class="owl-carousel">
                     <div class="item">
                         <div class="news">
-                            <div class="image"><img src="assets/ui/images/news3.jpg" alt="News"></div>
+                            <div class="image"><img src="{{ asset('assets/ui/images/news3.jpg') }}" alt="News"></div>
                             <div class="news_text">
                                 <h4 class="bottom10"><a href="#">Trading</a></h4>
                                 <p class="bottom30">Our goal is to provide one of the deepest and widest liquidity
@@ -627,7 +631,7 @@
                     </div>
                     <div class="item">
                         <div class="news">
-                            <div class="image"><img src="assets/ui/images/news2.jpg" alt="News"></div>
+                            <div class="image"><img src="{{ asset('assets/ui/images/news2.jpg') }}" alt="News"></div>
                             <div class="news_text">
                                 <h4 class="bottom10"><a href="#">Investment</a></h4>
                                 <p class="bottom30">For the crypto assets in your account, we use Opectrade
@@ -639,7 +643,7 @@
                     </div>
                     <div class="item">
                         <div class="news">
-                            <div class="image"><img src="assets/ui/images/cryptoexchange.jpg" alt="News"
+                            <div class="image"><img src="{{ asset('assets/ui/images/cryptoexchange.jpg') }}" alt="News"
                                     style="width: 360px; height: 210px;"></div>
                             <div class="news_text">
                                 <h4 class="bottom10"><a href="#">Exchange</a></h4>
@@ -652,7 +656,7 @@
 
                     <div class="item">
                         <div class="news">
-                            <div class="image"><img src="assets/ui/images/news1.jpg" alt="News"
+                            <div class="image"><img src="{{ asset('assets/ui/images/news1.jpg') }}" alt="News"
                                     style="width: 360px; height: 210px;"></div>
                             <div class="news_text">
                                 <h4 class="bottom10"><a href="#">Loan</a></h4>
