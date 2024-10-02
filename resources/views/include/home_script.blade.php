@@ -19,7 +19,7 @@
 <script src="{{ asset('assets/ui/js/functions-u%3d1587912412.js') }}"></script>
 <script type="text/javascript" src="{{ asset('assets/alert/js/jquery.fake-notification.min.js') }}"></script>
 <script type="text/javascript">
-$(document).ready(function() {
+    $(document).ready(function() {
   $('#notification-1').Notification({
     // Notification varibles
     Varible1: ["Dirk", "Johnny", "Watkin ", "Alejandro",  "Vina",  "Tony",   "Ahmed","Jackson",  "Noah", "Aiden",  "Darren", "Isabella", "Aria", "John", "Greyson", "Peter", "Mohammed", "William",
@@ -85,7 +85,7 @@ $("form#contact-form").submit(function(e) {
 });
 </script>
 <!-- GetButton.io widget -->
-<script type="text/javascript">
+{{-- <script type="text/javascript">
     (function () {
         var options = {
             whatsapp: "{{ config('app.phone') }}", // WhatsApp number
@@ -97,7 +97,18 @@ $("form#contact-form").submit(function(e) {
         s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
-</script>
+</script> --}}
 <!-- /GetButton.io widget -->
 
-<script src="../widget-v4.tidiochat.com/1_137_1/static/js/render.d653de6259cab871576f.js" async></script>
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '477329971cc19600ce3da180a1edc4b8c47b8cb8';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
