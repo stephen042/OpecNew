@@ -1935,7 +1935,7 @@ class UserController extends Controller
         $userToLogout = User::find(auth()->user()->id);
         Auth::setUser($userToLogout);
         Auth::logout();
-        return redirect()->route("admin.login");
+        return redirect()->route("user.login");
     }
 
     /**

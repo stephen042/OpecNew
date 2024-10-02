@@ -36,8 +36,8 @@
                             <div class="col-xl-12">
 
                                 <div class="auth-form">
-                                    <a href="/"><img src="{{ asset('assets/img/logo-footer.png') }}"
-                                            alt="" style="display: block; width: 30%; margin: 10px auto;"></a>
+                                    <a href="/"><img src="{{ asset('assets/img/logo-footer.png') }}" alt=""
+                                            style="display: block; width: 30%; margin: 10px auto;"></a>
                                     <hr>
 
                                     <form action="{{ route('user.register.post') }}"
@@ -52,11 +52,11 @@
                                             <div class="form-group wrap-input100 validate-input m-b-16"
                                                 data-validate="Please enter username">
                                                 <input type="text" value="{{ old('username') }}"
-                                                    class="form-control input100" placeholder="Username" name="username"
-                                                    >
+                                                    class="form-control input100" placeholder="Username"
+                                                    name="username">
                                                 <span class="focus-input100"></span>
                                                 @error('username')
-                                                    <p class="">{{ $message }} </p>
+                                                <p class="">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
@@ -64,10 +64,10 @@
                                                 data-validate="Please enter email">
                                                 <input type="text" class="form-control input100"
                                                     value="{{ old('email') }}" placeholder="Enter Your Email"
-                                                    name="email" >
+                                                    name="email">
                                                 <span class="focus-input100"></span>
                                                 @error('email')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
@@ -78,57 +78,59 @@
                                                     placeholder="Firstname">
                                                 <span class="focus-input100"></span>
                                                 @error('firstname')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
 
                                             <div class="form-group wrap-input100 validate-input m-b-16"
                                                 data-validate="Please enter lastname">
-                                                <input class="form-control input100" type="text" value="{{ old('lastname') }}"
-                                                    name="lastname" placeholder="Lastname">
+                                                <input class="form-control input100" type="text"
+                                                    value="{{ old('lastname') }}" name="lastname"
+                                                    placeholder="Lastname">
                                                 <span class="focus-input100"></span>
                                                 @error('lastname')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
                                             <div class="form-group wrap-input100 validate-input m-b-16"
                                                 data-validate="Please enter phone">
-                                                <input class="form-control input100" type="tell" value="{{ old('phone') }}"
-                                                    name="phone" placeholder="Phone">
+                                                <input class="form-control input100" type="tell"
+                                                    value="{{ old('phone') }}" name="phone" placeholder="Phone">
                                                 <span class="focus-input100"></span>
                                                 @error('phone')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
                                             <div class="form-group wrap-input100 validate-input m-b-16"
                                                 data-validate="Please enter pin">
-                                                <input class="form-control input100" type="number" value="{{ old('pin') }}"
-                                                    name="pin" placeholder="Financial PIN">
+                                                <input class="form-control input100" type="number"
+                                                    value="{{ old('pin') }}" name="pin" placeholder="Financial PIN">
                                                 <span class="focus-input100"></span>
                                                 @error('pin')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
-                                            <div class="form-group wrap-input100 validate-input m-b-16" data-validate="Country">
-                                                <input class="form-control input100" type="text" value="{{ old('country') }}"
-                                                    name="country" placeholder="Country">
+                                            <div class="form-group wrap-input100 validate-input m-b-16"
+                                                data-validate="Country">
+                                                <input class="form-control input100" type="text"
+                                                    value="{{ old('country') }}" name="country" placeholder="Country">
                                                 <span class="focus-input100"></span>
                                                 @error('country')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
                                             <div class="form-group  wrap-input100 m-b-16">
                                                 <input class=" form-control input100" type="text"
-                                                    value="{{ !empty($ref) ? $ref : old('referral') }}"
-                                                    name="referral" placeholder="Referral ID" readonly>
+                                                    value="{{ !empty($ref) ? $ref : old('referral') }}" name="referral"
+                                                    placeholder="Referral ID" readonly>
                                                 <span class="focus-input100"></span>
                                                 @error('referral')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
@@ -139,7 +141,7 @@
                                                     placeholder="Password">
                                                 <span class="focus-input100"></span>
                                                 @error('password')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
@@ -150,12 +152,13 @@
                                                     name="password_confirmation" placeholder="Confirm Password">
                                                 <span class="focus-input100"></span>
                                                 @error('password_confirmation')
-                                                    <p class="text-danger">{{ $message }} </p>
+                                                <p class="text-danger">{{ $message }} </p>
                                                 @enderror
                                             </div>
 
                                             <div class="container-login100-form-btn text-center mt-4">
-                                                <button class="login100-form-btn btn btn-primary btn-block" type="submit" id="submit">
+                                                <button class="login100-form-btn btn btn-primary btn-block"
+                                                    type="submit" id="submit">
                                                     Sign Up
                                                 </button>
                                             </div>
@@ -185,31 +188,18 @@
     <script src="{{ asset('assets/asset/js/main.js') }}"></script>
     <script src="../../widget-v4.tidiochat.com/1_137_1/static/js/render.d653de6259cab871576f.js" async></script>
     <!-- GetButton.io widget -->
-
-    <!-- /GetButton.io widget -->
-    <!-- GetButton.io widget -->
+    <!-- Smartsupp Live Chat script -->
     <script type="text/javascript">
-        (function() {
-            var options = {
-                whatsapp: "+14244652942", // WhatsApp number
-                call_to_action: "Chat with us", // Call to action
-                position: "left", // Position may be 'right' or 'left'
-            };
-            var proto = document.location.protocol,
-                host = "getbutton.io",
-                url = proto + "//static." + host;
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
-                WhWidgetSendButton.init(host, proto, options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-        })();
+        var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '477329971cc19600ce3da180a1edc4b8c47b8cb8';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
     </script>
-    <!-- /GetButton.io widget -->
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </body>
 
 

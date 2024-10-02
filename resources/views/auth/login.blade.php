@@ -32,49 +32,52 @@
                                 <a href="/"><img src="{{ asset('assets/img/logo-footer.png') }}" alt=""
                                         style="display: block; width: 30%; margin: 30px auto 0 auto;"></a>
                                 <div class="auth-form">
-                                    <form action="{{ route('user.login') }}" class="login100-form validate-form p-l-55 p-r-55 p-t-178" method="POST">
+                                    <form action="{{ route('user.login') }}"
+                                        class="login100-form validate-form p-l-55 p-r-55 p-t-178" method="POST">
                                         @csrf
 
                                         <h4 class="text-center mb-4">Sign in</h4>
 
                                         @if (!empty($noMatch))
-                                            <p class="text-danger" style="text-align: center">{{ $noMatch }}</p>
+                                        <p class="text-danger" style="text-align: center">{{ $noMatch }}</p>
                                         @endif
 
                                         @error('email')
-                                            <p class="text-danger">{{ $message }}</p>
+                                        <p class="text-danger">{{ $message }}</p>
                                         @enderror
 
                                         <div class=" wrap-input100 form-group validate-input m-b-16"
                                             data-validate="Please enter email">
                                             <input type="text" class="form-control input100" placeholder="Email"
-                                                 required name="email" value="{{ old('email') }}">
+                                                required name="email" value="{{ old('email') }}">
                                             <span class="focus-input100"></span>
                                         </div>
 
                                         @error('password')
-                                            <p class="text-danger">{{ $message }}</p>
+                                        <p class="text-danger">{{ $message }}</p>
                                         @enderror
 
-                                        <div class="form-group wrap-input100 validate-input" data-validate="Please enter password">
+                                        <div class="form-group wrap-input100 validate-input"
+                                            data-validate="Please enter password">
                                             <input type="password" class="form-control input100" placeholder="Password"
-                                                 name="password" required>
-                                                <span class="focus-input100"></span>
+                                                name="password" required>
+                                            <span class="focus-input100"></span>
                                         </div>
 
                                         <div class="text-center container-login100-form-btn">
                                             <button type="submit" class="btn btn-primary btn-block login100-form-btn"
-                                                id="submit" >Sign Me In</button>
+                                                id="submit">Sign Me In</button>
                                         </div>
-                                       
+
                                     </form>
                                     <hr>
                                     <div class="text-left p-t-13 p-b-23">
                                         <span class="txt1">
                                             Forgot
                                         </span>
-                
-                                        <a href="{{ route('user.pages.view', ['forgot-password']) }}" class="txt2 text-info">
+
+                                        <a href="{{ route('user.pages.view', ['forgot-password']) }}"
+                                            class="txt2 text-info">
                                             Password?
                                         </a>
                                     </div>
@@ -101,33 +104,19 @@
     <script src="{{ asset('/assets/account/js/deznav-init.js') }}"></script>
     <script src="{{ asset('assets/asset/js/main.js') }}"></script>
     <script src="../../widget-v4.tidiochat.com/1_137_1/static/js/render.d653de6259cab871576f.js" async></script>
-    
-    <!-- GetButton.io widget -->
 
-    <!-- /GetButton.io widget -->
-    <!-- GetButton.io widget -->
+    <!-- Smartsupp Live Chat script -->
     <script type="text/javascript">
-        (function() {
-            var options = {
-                whatsapp: "{{ config('app.phone') }}", // WhatsApp number
-                call_to_action: "Chat with us", // Call to action
-                position: "left", // Position may be 'right' or 'left'
-            };
-            var proto = document.location.protocol,
-                host = "getbutton.io",
-                url = proto + "//static." + host;
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
-                WhWidgetSendButton.init(host, proto, options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-        })();
+        var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '477329971cc19600ce3da180a1edc4b8c47b8cb8';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
     </script>
-    <!-- /GetButton.io widget -->
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </body>
 
 
