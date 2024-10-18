@@ -32,7 +32,8 @@
             }, 'google_translate_element');
         }
     </script>
-    <script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit">
+    <script type="text/javascript"
+        src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit">
     </script>
     <style type="text/css">
         .text-black {
@@ -43,24 +44,8 @@
             color: #fff;
         }
     </style>
-    {{-- <link href="{{ asset('assets/css/select2.min.css') }}" rel="stylesheet" /> --}}
-    <!-- Smartsupp Live Chat script -->
-    <script type="text/javascript">
-        var _smartsupp = _smartsupp || {};
-        _smartsupp.key = 'f2c39bdbe21557acaa4e4d28d077a7bb86d53525';
-        window.smartsupp || (function(d) {
-            var s, c, o = smartsupp = function() {
-                o._.push(arguments)
-            };
-            o._ = [];
-            s = d.getElementsByTagName('script')[0];
-            c = d.createElement('script');
-            c.type = 'text/javascript';
-            c.charset = 'utf-8';
-            c.async = true;
-            c.src = 'https://www.smartsuppchat.com/loader.js?';
-            s.parentNode.insertBefore(c, s);
-        })(document);
-    </script>
-    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
+    {{--
+    <link href="{{ asset('assets/css/select2.min.css') }}" rel="stylesheet" /> --}}
+    <!-- chatway Live Chat script -->
+    <script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=hwvnCnpOedP5"></script>
 </head>

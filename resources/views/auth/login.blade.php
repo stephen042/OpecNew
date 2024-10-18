@@ -18,6 +18,10 @@
     <script src="{{ asset('assets/dashboard/js/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ asset('assets/dashboard/js/global.js') }}"></script>
 
+    <!-- chatway Live Chat script -->
+    <script id="chatway" async="true" src="https://cdn.chatway.app/widget.js?id=hwvnCnpOedP5"></script>
+</head>
+
 </head>
 
 <body class="h-100" style="background: transparent rgba(255, 255, 255, 0), url('assets/img/bg2.jpg');">
@@ -104,19 +108,6 @@
     <script src="{{ asset('/assets/account/js/deznav-init.js') }}"></script>
     <script src="{{ asset('assets/asset/js/main.js') }}"></script>
     <script src="../../widget-v4.tidiochat.com/1_137_1/static/js/render.d653de6259cab871576f.js" async></script>
-
-    <!-- Smartsupp Live Chat script -->
-    <script type="text/javascript">
-        var _smartsupp = _smartsupp || {};
-    _smartsupp.key = '477329971cc19600ce3da180a1edc4b8c47b8cb8';
-    window.smartsupp||(function(d) {
-      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-      c.type='text/javascript';c.charset='utf-8';c.async=true;
-      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-    })(document);
-    </script>
-    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </body>
 
 

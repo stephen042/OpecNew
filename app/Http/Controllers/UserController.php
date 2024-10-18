@@ -1898,11 +1898,11 @@ class UserController extends Controller
             $data = (object) $request->all();
             $result = Application::where("id", "=", 1)->update([
                 'bitcoin_address' => $data->bitcoin_address,
-                // 'ethereum_address' => $data->ethereum_address,
+                'ethereum_address' => $data->ethereum_address,
                 'btc_cash_address' => $data->btc_cash_address,
                 'litecoin_address' => $data->litecoin_address,
                 'binancecoin_address' => $data->binancecoin_address,
-                // 'dodgecoin_address' => $data->dodgecoin_address,
+                'dodgecoin_address' => $data->dodgecoin_address,
                 'usdt_address' => $data->usdt_address,
 
             ]);
